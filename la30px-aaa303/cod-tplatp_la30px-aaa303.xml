@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Proposicion 3</title>
+        <author ref="#per-bdlcbd">Bartolome de las Casas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#jeffreycwitt">Catherine Blanch</name>
+          <resp>Transcription Correction and Alignment</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Proposicion 3</title>
+          <date when="2025-03-17">March 17, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="cod-tplatp">Seville, 1552</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-03-17" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#S" n="4"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="la30px-aaa303">
+        <head xml:id="la30px-aaa303-Hd1e104">Proposicion 3</head>
+        <p xml:id="la30px-aaa303-d1e106">
+          <lb ed="#C" n="20"/>¶ Proposicion. iii.
+        </p>
+        <p xml:id="la30px-aaa303-d1e111">
+          <lb ed="#C" n="21"/>PUede y deue el Romano y summo pontifice por a 
+          <lb ed="#C" n="22"/>utoridad de su apostolico officio: nombrar y señalar  
+          <lb ed="#C" n="23"/>los necessarios y conuenientes Idoneos ministros de to 
+          <lb ed="#C" n="24"/>dos los estados dela christiandad: para la consecucion del  
+          <lb ed="#C" n="25"/>dicho fin: y ponelles necessidad de precepto que acepten 
+          <lb ed="#C" n="26"/>y exerciten el cargo / cuydado / y officio que para effecto   
+          <pb ed="#P" n="5"/>
+          <lb ed="#C" n="1"/>desto les impusiere y ellos son obligados alo aceptar y 
+          <lb ed="#C" n="2"/>obedecelle como al mismo Jesu Christo.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

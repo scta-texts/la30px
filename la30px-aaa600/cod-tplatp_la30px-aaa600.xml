@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Proposicion 11</title>
+        <author ref="#per-bdlcbd">Bartolome de las Casas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#jeffreycwitt">Catherine Blanch</name>
+          <resp>Transcription Correction and Alignment</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Proposicion 11</title>
+          <date when="2025-03-17">March 17, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="cod-tplatp">Seville, 1552</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-03-17" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#S" n="8"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="la30px-aaa600">
+        <head xml:id="la30px-aaa600-Hd1e104">Proposicion 11</head>
+        <p xml:id="la30px-aaa600-d1e106">
+          <lb ed="#C" n="5"/>¶ Proposicion. xi.
+        </p>
+        <p xml:id="la30px-aaa600-d1e111">
+          <lb ed="#C" n="6"/>LA opinion contradictoria dela precedente 
+          proposi<lb ed="#C" n="7" break="no"/>cion es erronea y perniciosissima: y quien con per 
+          <lb ed="#C" n="8"/>tinacia le defendiere incurrira formal eregia. Es 
+          assi<lb ed="#C" n="9" break="no"/>mismo impiissima / iniquisima / y causatiua de 
+          ynumera<lb ed="#C" n="10" break="no"/>bles robos / violencias y tiranias / estragos y latrocinios / 
+          <lb ed="#C" n="11"/>daños yrreparables y peccados grauissimos: infamia: 
+          <lb ed="#C" n="12"/>hedor: y aborrescimiento del nombre de Christo y de la  
+          <lb ed="#C" n="13"/>religion christiana: y efficacissimo impedimento de nuestra  
+          <lb ed="#C" n="14"/>catholica fee: muerte / perdicion y jactura de la mayor  
+          <lb ed="#C" n="15"/>parte del linaje humano: damnacion certissima de 
+          infi<lb ed="#C" n="16" break="no"/>nitas animas: y finalmente de la piedad mansedumbre 
+          <lb ed="#C" n="17"/>y costumbre Euangelica y christiana: cruel y capital 
+          ene<lb ed="#C" n="18" break="no"/>miga. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

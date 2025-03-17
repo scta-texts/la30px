@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Proposicion 15</title>
+        <author ref="#per-bdlcbd">Bartolome de las Casas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#jeffreycwitt">Catherine Blanch</name>
+          <resp>Transcription Correction and Alignment</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Proposicion 15</title>
+          <date when="2025-03-17">March 17, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="cod-tplatp">Seville, 1552</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-03-17" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#S" n="9"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="la30px-aaa745">
+        <head xml:id="la30px-aaa745-Hd1e104">Proposicion 15</head>
+        <p xml:id="la30px-aaa745-d1e106">
+          <lb ed="#C" n="25"/>Proposicion. xv.
+        </p>
+        <p xml:id="la30px-aaa745-d1e111">
+          <lb ed="#C" n="26"/>SIngulares prerogatiuas mas que enlos otros  
+          <lb ed="#C" n="27"/>christianos principes: concurrieron enlos reyes de  
+          <lb ed="#C" n="28"/>castilla y leon don Fernando y doña Ysabel catholicos
+          <pb ed="#P" n="10"/>
+          <lb ed="#C" n="1"/>Principes: para que el Vicario de Christo mas a ellos que a 
+          <lb ed="#C" n="2"/>otros de toda la christiandad: cometiesse el dicho cuydado  
+          <lb ed="#C" n="3"/>y officio. Que no fue otra cosa sino por auctoridad 
+          di<lb ed="#C" n="4" break="no"/>uina instituyllos y inuestillos de la mas alta dignidad  
+          <lb ed="#C" n="5"/>que Reyes jamas tuuieron sobre la tierra (conuiene a  
+          <lb ed="#C" n="6"/>saber) de apostoles architectonicos delas yndias. En 
+          <lb ed="#C" n="7"/>tre otras excelencias tuuieron dos que son estas. La vna  
+          <lb ed="#C" n="8"/>que allende de heredar de sus progenitores el 
+          recobra<lb ed="#C" n="9" break="no"/>miento de todos estos Reynos de España delas manos  
+          <lb ed="#C" n="10"/>delos tiranos enemigos de nuestra sancta fee catholica  
+          <lb ed="#C" n="11"/>mahometicos: con mucho derramamiento de su real 
+          san<lb ed="#C" n="12" break="no"/>gre / ellos mismos con sus propias reales personas con  
+          <lb ed="#C" n="13"/>incomparables trabajos recobraron el gran Reyno de  
+          <lb ed="#C" n="14"/>Granada y lo restituyeron finalmente a Christo y ala  
+          <lb ed="#C" n="15"/>vniuersal yglesia. Otra fue que a sus propias expensas 
+          <lb ed="#C" n="16"/> y por su fauor / expedicion y mandado: tomando por me 
+          <lb ed="#C" n="17"/>dio al Egregio varon Don Christoual Colon a quien  
+          <lb ed="#C" n="18"/>honrraron y sublimaron con titulo de primero almiran 
+          <lb ed="#C" n="19"/>te dellas: se descubrieron aquellas tan amplas y tan esten 
+          <lb ed="#C" n="20"/>didas Indias. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

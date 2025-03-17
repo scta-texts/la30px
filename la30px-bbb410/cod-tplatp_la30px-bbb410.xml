@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Proposicion 29</title>
+        <author ref="#per-bdlcbd">Bartolome de las Casas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Catherine Blanch</name>
+          <resp>Transcription Correction and Alignment</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Proposicion 29</title>
+          <date when="2025-03-17">March 17, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="cod-tplatp">Seville, 1552</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-03-17" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#S" n="17"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="la30px-bbb410">
+        <head xml:id="la30px-bbb410-Hd1e103">Proposicion 29</head>
+        <p xml:id="la30px-bbb410-d1e105">
+          <lb ed="#S" n="15"/>¶ Proposicion. xxix.
+        </p>
+        <p xml:id="la30px-bbb410-d1e110">
+          <lb ed="#S" n="16"/>LAs dichas encomiendas y repartimiento de 
+          hom<lb ed="#S" n="17" break="no"/>bres que se haze y ha hecho segun dixe como si 
+          fue<lb ed="#S" n="18" break="no"/>ran bestias: nunca fue mandado hazer desde su tiranico  
+          <lb ed="#S" n="19"/>principio por los reyes de castilla: ni tal pensamiento tu 
+          <lb ed="#S" n="20"/>uieron. Porque no le compadece tal gouernacion iniquia /  
+          <lb ed="#S" n="21"/>tiranica / vaslatiua / y despoblatiua de tan grandes reynos:  
+          <lb ed="#S" n="22"/>poniendo a todo vn mundo en asperrima y continua / 
+          hor<lb ed="#S" n="23" break="no"/>rible y mortifera seruidumbre: con la retitud y justicia  
+          <lb ed="#S" n="24"/>de ningunos que sean catholicos Christianos ni aun que  
+          <lb ed="#S" n="25"/>fuessen gentiles infieles: con que tuuiessen alguna razon  
+          <lb ed="#S" n="26"/>de reyes.
+        </p>
+        <p xml:id="la30px-bbb410-d1e136">
+          La reyna doña Ysabel de immortal memoria que  
+          <lb ed="#S" n="27"/>desto tracto la primera: luego ansi como por su mandado  
+          <lb ed="#S" n="28"/>y fauor se descubrieron las indias / al primero que embio  
+          <lb ed="#S" n="29"/>por gouernador que fue el dicho Almirante: y el segun 
+          <lb ed="#S" n="30"/>do que se llamo don Francisco de Bouadilla: y el tercero  
+          <lb ed="#S" n="31"/>que fue vn comendador de lares: mando eficacissimamente 
+          <pb ed="#S" n="18"/>
+          <lb ed="#S" n="1"/>que conseruassen los yndios en toda su paz / justicia y 
+          li<lb ed="#S" n="2" break="no"/>bertad. Lo qual porque el dicho almirante dio solos 
+          tre<lb ed="#S" n="3" break="no"/>zientos yndios a españoles los quales auian bien serui 
+          <lb ed="#S" n="4"/>do alos reyes 
+        </p>
+        <p xml:id="la30px-bbb410-d1e160">
+          y dellos yo que esto digo tuue vno: quiso  
+          <lb ed="#S" n="5"/>hundir y destruyr al almirante diziendo: que que poder te 
+          <lb ed="#S" n="6"/>nia el suyo para dar a nadie sus vassallos. Los quales  
+          <lb ed="#S" n="7"/>luego estando la corte en granada quando lo Lanja 
+          <lb ed="#S" n="8"/>ron / o Alpuxarras todos mando que fuessen a sus tierras  
+          <lb ed="#S" n="9"/>libres restituydos. Que dixera la serenissima y christia 
+          <lb ed="#S" n="10"/>nissima reyna señores: si supiera auer repartido alos 
+          ti<lb ed="#S" n="11" break="no"/>ranos crueles como si fueran carneros todos sin sacar  
+          <lb ed="#S" n="12"/>grandes ni chicos los vniuersos vezinos y moradores  
+          <lb ed="#S" n="13"/>de aquel su otro mundo y por el tal repartimiento auer  
+          <lb ed="#S" n="14"/>perescido (como dixe) quinze cuentos de animas como  
+          <lb ed="#S" n="15"/>vuestra alteza señores los aueys visto: estoy por dezir  
+          <lb ed="#S" n="16"/>que pusiera fuego a castilla. 
+        </p>
+        <p xml:id="la30px-bbb410-d1e190">
+          Despues confirmo y refirmo lo  
+          <lb ed="#S" n="17"/>mismo al dicho segundo gouernador Bouadilla: y des 
+          <lb ed="#S" n="18"/>pues al tercero comendador de lares: el qual el año de qu 
+          <lb ed="#S" n="19"/>inientos y tres siendo yo presente yntroduxo contra 
+          vo<lb ed="#S" n="20" break="no"/>luntad y sciencia y contra los mandamientos de la dicha  
+          <lb ed="#S" n="21"/>señora reyna esta infernal pestilencia. Pro la qual por porque lue
+          <lb ed="#S" n="22"/>go murio, no se le dió al dicho comendador de lares por 
+          <lb ed="#S" n="23"/>los Reyes su merecida penitencia. Y vltimadamente 
+          to<lb ed="#S" n="24" break="no"/>do lo que auia mandado y proueydo: lo mando y recon
+          <lb ed="#S" n="25"/>firmo en su vltimo testamento. 
+        </p>
+        <p xml:id="la30px-bbb410-d1e212">
+          Venido el Rey catholi 
+          <lb ed="#S" n="26"/>co de Napoles el año de siete quiso emendar tanto mal  
+          <lb ed="#S" n="27"/>como paresce algo enla instrucion que mando dar a pe  
+          <lb ed="#S" n="28"/>drarias que fue el primero conquistador dela gran tier
+          <lb ed="#S" n="29"/>ra firme: pero como tuuo pocos que le diessen lumbre y  
+          <lb ed="#S" n="30"/>dixessen verdad a su alteza aprouecho poco lo que fizo. 
+        </p>
+        <p xml:id="la30px-bbb410-d1e225">
+          <lb ed="#S" n="31"/>Ultimamente su Magestad estando enesta villa de 
+          Va<lb ed="#S" n="32" break="no"/>lladolid enel Año de quinientos y veynte y tres por el
+          <lb ed="#S" n="33"/>mes de Junio teniendo informacion como el dicho re
+          <pb ed="#S" n="19"/>
+          <lb ed="#S" n="1"/>partimiento era injusto y tiranico: y ser causa de peres 
+          <lb ed="#S" n="2"/>cer todas aquellas infinitas naciones auiendo precedi 
+          <lb ed="#S" n="3"/>do por su mandado ayuntamientos de letrados de sus  
+          <lb ed="#S" n="4"/>consejos y de Theologos y de personas de muchas le 
+          <lb ed="#S" n="5"/>tras y de buena y santa vida: como su Magestad mismo  
+          <lb ed="#S" n="6"/>refiere: alos quales parecio que con buena conciencia  
+          <lb ed="#S" n="7"/>pues dios nuestro señor crio los dichos yndios libres  
+          <lb ed="#S" n="8"/>y no subjectos: su Magestad no podia mandar los en 
+          <lb ed="#S" n="9"/>comendar ni fazer repartimiento dellos a los Christia 
+          <lb ed="#S" n="10"/>nos 
+        </p>
+        <p xml:id="la30px-bbb410-d1e258">
+          (Estos son palabras formales de su Magestad) en 
+          <lb ed="#S" n="11"/>vna instrucion que embio a Hernando Cortes que 
+          po<lb ed="#S" n="12" break="no"/>co auia que era entrado enla nueua españa por las 
+          mis<lb ed="#S" n="13" break="no"/>mas tiranicas conquistas: en la qual le mando que 
+          no<lb ed="#S" n="14" break="no"/>fiziesse encomienda ni repartimiento ni deposito 
+          algu<lb ed="#S" n="15" break="no"/>no de yndios en Españoles: sino que lo dexassen biuir  
+          <lb ed="#S" n="16"/>libremente como sus vassallos enestos Reynos de 
+          Ca<lb ed="#S" n="17" break="no"/>stilla biuen: y si quando aquella instrucion llegasse oui 
+          <lb ed="#S" n="18"/>esse hecho algun repartimiento / o encomienda: luego 
+          <lb ed="#S" n="19"/>la reuocasse y los pusiesse en su libertad. etc. (Todas es 
+          <lb ed="#S" n="20"/>tas son palabras de su Magestad como en la dicha in 
+          <lb ed="#S" n="21"/>strucion Real paresce) El qual no cumplio nada por lo  
+          <lb ed="#S" n="22"/>mucho que a elle yua enello. 
+        </p>
+        <p xml:id="la30px-bbb410-d1e287">
+          Esta fue tambien final 
+          con<lb ed="#S" n="23" break="no"/>clusion de todo el Consejo Real y ayuntamientos que  
+          <lb ed="#S" n="24"/>se hizieron por mandado de su Magestad quando 
+          pas<lb ed="#S" n="25" break="no"/>saua a Italia destos Reynos el Año de veynte y nueue  
+          <lb ed="#S" n="26"/>en tiempo que don Juan Tauera era presidente: y de 
+          to<lb ed="#S" n="27" break="no"/>do nunca se cumplio nada. Y assi como su Magestad 
+          ha<lb ed="#S" n="28" break="no"/>hecho tan frequentes ausencias y por sus muchos nego 
+          <lb ed="#S" n="29"/>cios externos: no ha acabado de tener noticia delas 
+          mi<lb ed="#S" n="30" break="no"/>serias y calamidades delos Indios y la maldad y ponço 
+          <lb ed="#S" n="31"/>ña vastatiua de reynos que contienen ensi este 
+          repartimien<lb ed="#S" n="32" break="no"/>to: y como todo quanto alla tiene sele pierde: y se ha enue 
+          <pb ed="#S" n="20"/>
+          <lb ed="#S" n="1"/>gecido y tupido esta tiranica ceguedad hasta agora. Y 
+          <lb ed="#S" n="2"/>Dios sabe si sera bastante como es obligado a estirparla  
+          <lb ed="#S" n="3"/>algun dia. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

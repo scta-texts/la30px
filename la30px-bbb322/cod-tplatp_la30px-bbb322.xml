@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Proposicion 28</title>
+        <author ref="#per-bdlcbd">Bartolome de las Casas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#jeffreycwitt">Catherine Blanch</name>
+          <resp>Transcription Correction and Alignment</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Proposicion 28</title>
+          <date when="2025-03-17">March 17, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="cod-tplatp">Seville, 1552</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-03-17" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#S" n="16"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="la30px-bbb322">
+        <head xml:id="la30px-bbb322-Hd1e104">Proposicion 28</head>
+        <p xml:id="la30px-bbb322-d1e106">
+          <lb ed="#C" n="14"/>¶ Proposicion. xxviii. 
+        </p>
+        <p xml:id="la30px-bbb322-d1e111">
+          <lb ed="#C" n="15"/>Ninguna otra pestilencia pudo el diablo inuentar para de 
+          <lb ed="#C" n="16"/>struyr todo aquel orbe / consumir y matar todas aquellas  
+          <lb ed="#C" n="17"/>gentes del: y despoblar como ha despoblado tan grandes y tan 
+          <lb ed="#C" n="18"/>poblados reynos: y esta sola bastaua para despoblar el mu 
+          <lb ed="#C" n="19"/>ndo: como fue la inuencion del repartamiento y encomiendas  
+          <lb ed="#C" n="20"/>de aquellas gentes que repartieron y las encomendaron  
+          <lb ed="#C" n="21"/>alos españoles: como si las encomendaran a todos los dia 
+          <lb ed="#C" n="22"/>blos / o como atajos de ganados entregados a hambrien 
+          <lb ed="#C" n="23"/>tos lobos. Por esta encomienda / o repartimiento que fue  
+          <lb ed="#C" n="24"/>la mas cruel especie de tirania y mas digna de fuego in 
+          <lb ed="#C" n="25"/>fernal que pudo ser ymaginada: todas aquellas gentes son  
+          <lb ed="#C" n="26"/>impedidas de rescebir la fee y religion christiana: por  
+          <lb ed="#C" n="27"/>occupallos noches y dias los españoles sus infelices 
+          ti<lb ed="#C" n="28" break="no"/>ranos comenderos enlas minas / y trabajos personales /  
+          <lb ed="#C" n="29"/>y tributos increybles: y con echalles cargas acuestas que las 
+          <lb ed="#C" n="30"/>lleuen ciento y dozientas leguas como y peores que si fue 
+          <lb ed="#C" n="31"/>ssen bestias: y con perseguir y echar delos  
+          <lb ed="#C" n="32"/>pueblos delos yndios alos religiosos Predicadores dela fee que les 
+          <lb ed="#C" n="33"/>doctrinan y dan conoscimiento de Dios: por no tener 
+          <pb ed="#P" n="17"/>
+          <lb ed="#C" n="1"/>testigos de sus violencias / crueldades / latrocinios con 
+          <lb ed="#C" n="2"/>tinuos y homicidios. Por estas encomiendas y repar 
+          <lb ed="#C" n="3"/>timiento han padecido y padecen continuos tormentos.  
+          <lb ed="#C" n="4"/>Robos / injusticias en sus personas y en fijos y mugeres  
+          <lb ed="#C" n="5"/>y bienos los indios. Por estas encomiendas y reparti 
+          <lb ed="#C" n="6"/>miento han perecido en obra de quarenta y seys años yo  
+          <lb ed="#C" n="7"/>presente: sobre quinze cuentos de animas sin fee y sin sa 
+          <lb ed="#C" n="8"/>cramentos / y han despoblado mas de tres mil leguas de  
+          <lb ed="#C" n="9"/>tierra. E yo: digo presente: y mientras estas encomien 
+          <lb ed="#C" n="10"/>das duraren: yo pido a dios que sea testigo y juez desto  
+          <lb ed="#C" n="11"/>que digo: que no bastara el poder de los reyes aun que  
+          <lb ed="#C" n="12"/>estuuiessen presentes: a que no perezcan y se acaben y con 
+          <lb ed="#C" n="13"/>suman todos los indios: como por esta via se acabarian  
+          <lb ed="#C" n="14"/>mil mundos sin tener remedio. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Proposicion 30</title>
+        <author ref="#per-bdlcbd">Bartolome de las Casas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#jeffreycwitt">Catherine Blanch</name>
+          <resp>Transcription Correction and Alignment</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Proposicion 30</title>
+          <date when="2025-03-17">March 17, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="cod-tplatp">Seville, 1552</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-03-17" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#S" n="20"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="la30px-bbb630">
+        <head xml:id="la30px-bbb630-Hd1e104">Proposicion 30</head>
+        <p xml:id="la30px-bbb630-d1e106">
+          <lb ed="#C" n="4"/>Proposicion. xxx. y vltima. 
+        </p>
+        <p xml:id="la30px-bbb630-d1e111">
+          <lb ed="#C" n="5"/>DE todo lo suso dicho en fuerça de consequencia nece 
+          <lb ed="#C" n="6"/>ssaria se sigue: que sin perjuyzio del titulo y señorio  
+          <lb ed="#C" n="7"/>soberano y real que alos Reyes de Castilla pertenece so 
+          <lb ed="#C" n="8"/>bre aquel orbe delas Indias: todo lo que enellas se ha he 
+          <lb ed="#C" n="9"/>cho: ansi enlo delas injustas y tiranicas conquistas: co 
+          <lb ed="#C" n="10"/>mo en lo delos repartimientos y encomiendas: ha sido nul 
+          <lb ed="#C" n="11"/>lo / ninguno y de ningun valor ni fuerça de derecho: por  
+          <lb ed="#C" n="12"/>auer lo fecho todo tiranos puros sin causa justa ni razon  
+          <lb ed="#C" n="13"/>ni auctoridad de su principe y rey natural: antes contra  
+          <lb ed="#C" n="14"/>expressos mandamientos suyos: como consta eneste real  
+          <lb ed="#C" n="15"/>consejo no auerse guardado vno ni ninguno enlo tocan 
+          <lb ed="#C" n="16"/>te a esto. Y es tan notorio que ninguna persona de quantos  
+          <lb ed="#C" n="17"/>ay enlas Indias lo ygnora. Y ansi entiendo la septima 
+          <lb ed="#C" n="18"/>regla de mi confessionario que han calumniado los que parte  
+          <lb ed="#C" n="19"/>o arte tienen / o esperan delos robos y tiranias y destruy 
+          <lb ed="#C" n="20"/>ciones y perdimiento de animas delos indios qualesquie 
+          <lb ed="#C" n="21"/>ra que enestos reynos sean. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
