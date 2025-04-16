@@ -24,7 +24,7 @@
         <authority>SCTA</authority>
         <availability status="free">
           <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-            >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+              >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
           </p>
         </availability>
       </publicationStmt>
@@ -59,29 +59,20 @@
     <body>
       <div xml:id="la30px-bbb268">
         <head xml:id="la30px-bbb268-Hd1e104">Proposicion 27</head>
-        <p xml:id="la30px-bbb268-d1e106">
-          Proposicion XVII
-        </p>
-        <p xml:id="la30px-bbb268-d1e111">
-          <lb ed="#S" n="25"/>LOs Reyes de Castilla son obligados de derecho  
-          <lb ed="#S" n="26"/>diuino a poner tal gouernacion y regimiento en  
-          <lb ed="#S" n="27"/>aquellas gentes naturales delas Indias: conseruadas  
-          <lb ed="#S" n="28"/>sus justas leyes y buenas costumbres que tenian algu 
-          <lb ed="#S" n="29"/>nas: y quitadas las malas que no eran muchas / y supli 
-          <pb ed="#S" n="16"/>
-          <lb ed="#S" n="1"/>dos los defectos que tuuieren en su policia: todo lo qual 
-          <lb ed="#S" n="2"/>se quita y suple principalmente con la predicacion y re 
-          <lb ed="#S" n="3"/>ception dela fee: que pospuesta y muy ala postre su pro 
-          <lb ed="#S" n="4"/>pia vtilidad real / rentas y temporal interesse: aquellas gen 
-          <lb ed="#S" n="5"/>tes sean ayudadas y no impedidas en lo tocante alo es 
-          <lb ed="#S" n="6"/>piritual y en su conuersion y recebimiento de nuestra ca 
-          <lb ed="#S" n="7"/>tholica fee / y enel exercicio de los sanctos sacramentos  
-          <lb ed="#S" n="8"/>dela yglesia: y tambien conseruados en sus derechos 
-          <lb ed="#S" n="9"/>y justicia. Y sobre esto principalmente augmentadas y pros 
-          <lb ed="#S" n="10"/>peradas enla vida corporal y enlo demas que a su bien  
-          <lb ed="#S" n="11"/>temporal pertenece. Porque este es el fin / o la causa final  
-          <lb ed="#S" n="12"/>porque alos Reyes de Castilla y Leon no teniendo an 
-          <lb ed="#S" n="13"/>tes nada enellas les fueron por la yglesia concedidas.
+        <p xml:id="la30px-bbb268-d1e106"> Proposicion XVII </p>
+        <p xml:id="la30px-bbb268-d1e111"> 
+          Los reyes de Castilla son obligados de derecho divino a
+          poner tal gobernación y regimiento en aquellas gentes naturales de las Indias, conservadas
+          sus justas leyes y buenas costumbres, que tenían algunas, y quitadas las malas, que no
+          eran muchas, y suplidos los defectos que tuvieren en su policia, todo lo cual se quita y
+          suple principalmente con la predicación y receptión de la fee, que pospuesta y muy a la
+          postre su propia utilidad real, rentas y temporal interese, aquellas gentes sean ayudadas
+          y no impedidas en lo tocante a lo espiritual, y en su conversión y recebimiento de nuestra
+          católica fe, y en el ejercicio de los sanctos sacramentos de la Iglesia, y también
+          conservados en sus derechos y justicia. Y sobre esto, principalmente augmentadas y
+          prosperadas en la vida corporal y en lo demás que a su bien temporal pertenece. Porque
+          este es el fin, o la causa final, porque a los reyes de Castilla y León, no teniendo antes
+          nada en ellas, les fueron por la Iglesia concedidas. 
         </p>
       </div>
     </body>
