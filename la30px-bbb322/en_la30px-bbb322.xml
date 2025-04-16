@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Proposition 28</title>
+        <author ref="#per-bdlcbd">Bartolome de las Casas</author>
+        <respStmt>
+          <name ref="#per-acj1ac">Samuel Fynewver</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Proposition 28</title>
+          <date when="2025-04-16">April 16, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+              >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="en">Born Digital</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="la30px-bbb322">
+        <head xml:id="la30px-bbb322-Hd1e104">Proposition 28</head>
+        <p xml:id="la30px-bbb322-d1e106"> Proposition 28 </p>
+        <p xml:id="la30px-bbb322-d1e111"> The encomienda and repartimiento are most evil. The
+          devil could not invent any other pestilence to better destroy that entire world, consume
+          and kill all the peoples therein and depopulate—as have been depopulated—such great and so
+          populous kingdoms, than the repartimiento and encomiendas of these peoples. The Spaniards’
+          encomiendas were established as if they were to hand these peoples over to all the devils,
+          or like flocks of livestock handed over to hungry wolves. This encomienda or repartimiento
+          is the most cruel tyranny and most worthy of hell fire that could be imagined. Because of
+          it, all the peoples of the Americas are impeded from receiving the Christian faith. The
+          Spaniards control their every day and night as unhappy tyrant comenderos, in the mines and
+          personal work and incredible tributes, and by making them load great burdens on their
+          backs to carry a hundred or two hundred leagues, as if and worse than if they were beasts.
+          These comenderos also persecute and expel all the priests who preach the Gospel, who give
+          them knowledge of God. All this is to say nothing of the violences, continuous larceny and
+          homicide. Because of these encomiendas and repartimiento, the Indians have suffered and
+          still suffer continuous torments, robberies, injustices in their persons and their
+          children, women and goods. By these encomiendas and repartimientos, in the past forty-six
+          years — I write as an eyewitness — more than fifteen million souls, without faith and without
+          sacraments, have perished. They have also depopulated more than three thousand leagues of
+          land, and I say this as an eyewitness. And as long as the encomiendas should endure — I pray
+          that God be the judge of what I say — the monarchs’ power will not be enough, even if they
+          were present in person, to stop the death, end, and consumption of all the Indians. By the
+          encomienda, a thousand worlds would be destroyed, without having any remedy. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

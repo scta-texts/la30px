@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Proposicion 2</title>
+        <author ref="#per-bdlcbd">Bartolome de las Casas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#per-acj1ac">Samuel Fynewver</name>
+          <resp>Editor</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Proposicion 2</title>
+          <date when="2025-04-16">April 16, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+              >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="cod-tplatp">Seville, 1552</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#S" n="9"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="la30px-aaa745">
+        <head xml:id="la30px-aaa745-Hd1e104">Proposicion 15</head>
+        <p xml:id="la30px-aaa745-d1e106"> Proposicion XV </p>
+        <p xml:id="la30px-aaa745-d1e111"> Singulares prerrogativas, más que en los otros cristianos
+          príncipes, concurrieron en los reyes de Castilla y León, don Fernando y doña Isabel,
+          católicos príncipes para que el Vicario de Cristo, más a ellos que a otros de toda la
+          Cristiandad, cometiese el dicho cuidado y oficio. Que no fué otra cosa sino por autoridad
+          divina instituídos e investidos de la más alta dignidad que reyes jamás tuvieron sobre la
+          tierra, conviene a saber, de apóstoles architectónicos de las Indias. 
+          
+          Entre otras
+          excelencias tuvieron dos, que son éstas: la una, que allende de heredar de sus
+          progenitores el recubrimiento de todos estos reinos de España de las manos de los tiranos
+          enemigos de nuestra sancta fee católica mahometices, con mucho derramamiento de su real
+          sangre, ellos mismos, con sus propias reales personas, con incomparables trabajos
+          recobraron el gran reino de Granada y lo restituyeron finalmente a Cristo y a la universal
+          Iglesia. 
+          
+          Otra fué que a sus propias expensas y por su favor, expedición y mandado, tomando
+          por medio al egregio varón don Cristóbal Colón, a quien honraron y sublimaron con título
+          de primero almirante dellas, se descubrieron aquellas tan amplias y tan estendidas Indias.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

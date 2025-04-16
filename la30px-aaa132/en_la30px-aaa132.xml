@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Reason for the Propositions</title>
+        <author ref="#per-bdlcbd">Bartolome de las Casas</author>
+        <respStmt>
+          <name ref="#per-acj1ac">Samuel Fynewver</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Reason for the Propositions</title>
+          <date when="2025-04-16">April 16, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+              >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="en">Born Digital</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="la30px-aaa132">
+        <head xml:id="la30px-aaa132-Hd1e103">Reason for the Propositions</head>
+        <p xml:id="la30px-aaa132-d1e105"> 
+          Reason for the Propositions
+        </p>
+        <p xml:id="la30px-aaa132-d1e114"> 
+          Friar Bartolomé de las Casas or Casaus, Bishop of Chiapa
+          in New Spain, knew—by virtue fifty years of personal experience—the spiritual needs which
+          the Spanish have caused in these Indies. Those who lived in this diocese were bound by
+          these spiritual needs, and they once were among those most in need of correction for their
+          errors and sins. Given Las Casas’ pastoral office, providing a remedy for their dangerous
+          blindness was his concern. Such a remedy is usually given, after preaching and doctrine,
+          only through confession. For this reason, Las Casas wrote a brief Confessional
+          (Confesionario), in which he assigned certain rules to guide the conscience of confessors.
+          Having brought this Confessional to Castilla, it was read, reread and examined, and
+          approved and signed by six masters of theology. 
+        </p>
+        <p xml:id="la30px-aaa132-d1e158">
+          But some who imitate the truth, ignorant of the true
+          occurrences in the Indies, who would provide excuses for these most abominable happenings,
+          wanted to defame the Confessional. They took issue with one of the rules in the
+          Confessional, insisting that the Confessional would deny the kings of Castilla’s title and
+          lordship over this world, since the Confessional affirms that everything the Spanish have
+          done in the Indies is illegal, as a thing done without authority of a prince and against
+          all natural justice. From this occasion the following propositions have their origin.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

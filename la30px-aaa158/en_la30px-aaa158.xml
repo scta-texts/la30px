@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Prologue</title>
+        <author ref="#per-bdlcbd">Bartolome de las Casas</author>
+        <respStmt>
+          <name ref="#per-acj1ac">Samuel Fynewver</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Prologue</title>
+          <date when="2025-04-16">April 16, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+              >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="en">Born Digital</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="la30px-aaa158">
+        <head xml:id="la30px-aaa158-Hd1e104">Prologue</head>
+        <p xml:id="la30px-aaa158-d1e106"> 
+          Prologue of the bishop friar Bartolomé de las Casas or
+          Casaus to the very powerful and most Christian lords of the Royal Council of the Indies.
+        </p>
+        <p xml:id="la30px-aaa158-d1e119"> 
+          Your Majesty sent me to call this Royal Council of the
+          Indies about a Confessional I wrote which governs the confessors in hearing the
+          confessions of the Spanish in my diocese. Some say that, from some of the rules in the
+          Confessional, it could be inferred that the monarchs of Castilla have no title, or no good
+          title, to the empire in the Indies. And it seemed to Your Majesty that I should declare in
+          writing what I feel of this matter, for on various occasions in this Royal Council I have
+          spoken in favor of my Confessional. 
+        </p>
+        <p xml:id="la30px-aaa158-d1e148">
+          This is a matter of great importance, and to give an
+          account of it requires a long treatise, since it would need to come from expert men and
+          excellent people. I have begun to collect what over the years I have thought and studied
+          of it. However, since Your Majesty urges me to quickly send my position on the matter, it
+          seemed best to do what I can, following the law of God, in a much abbreviated fashion.
+          Therefore I write these Propositions, without proving them, in the current summary. Their
+          proofs, with the rest, will be part of the said treatise4, which will be presented to Your
+          Majesty in this Royal Council in brief days, should it please God. And because treating
+          this subject necessarily requires discussing things concerning our holy faith, I submit
+          everything I write herein to the correction of the Holy Roman Church. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

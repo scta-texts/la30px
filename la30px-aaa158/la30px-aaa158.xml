@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Prologo</title>
+        <author ref="#per-bdlcbd">Bartolome de las Casas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#per-acj1ac">Samuel Fynewver</name>
+          <resp>Editor</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Prologo</title>
+          <date when="2025-04-16">April 16, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+            >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="cod-tplatp">Seville, 1552</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#S" n="3"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="la30px-aaa158">
+        <head xml:id="la30px-aaa158-Hd1e104">Prologo</head>
+        <p xml:id="la30px-aaa158-d1e106"> Prologo del obispo don Fray Bartolomé de las Casas o
+          Casaus a los muy poderosos y cristianísimos señores del Consejo Real de las Indias. </p>
+        <p xml:id="la30px-aaa158-d1e119"> Vuestra Alteza mandó llamarme a este Real Consejo de las
+          Indias sobre un Confesionario que yo hice, por el cual se rigiesen los confesores en las
+          confesiones de españoles en mi obispado, del cual diz que resultan algunas proposiciones,
+          según el entendimiento que le dan algunos, de las cuales se podrá inferir que los reyes de
+          Castilla no tienen título o no buen título al imperio y señorío de que usan en aquel orbe.
+          Y pareció a Vuestra Alteza que yo debía declarar por escrito lo que dello siento, pues
+          muchas veces en este Real Consejo he hablado en favor dello. </p>
+        <p xml:id="la30px-aaa158-d1e148"> E porque esta es materia de gran calidad e importancia y
+          para dar cuenta della requiere largo tratado, pues ha de venir a manos de varones doctos y
+          personas excelentes, e yo lo he comenzado a collegir de lo que ha algunos años que he
+          pensado y estudiado, pero porque Vuestra Alteza me da prisa por lo enviar a Su Majestad,
+          pareció, mucho abreviando, hacer de todo lo que según Dios y su ley cerca deste artículo
+          alcanzo, por las siguientes proposiciones, sin probarlas, el sumario presente. La prueba
+          dellas, con lo demás, se quedará para en el dicho tratado que en breves días si place a
+          Dios Vuestra Alteza verá en este Real Consejo presentado. Y porque necesariamente
+          tractando desto se han de tocar cosas a nuestra sancta fe concernientes, por ende, todo lo
+          que dijere y cada parte dello someto a la correction de la sancta romana Iglesia. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

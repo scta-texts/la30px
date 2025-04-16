@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Proposition 30</title>
+        <author ref="#per-bdlcbd">Bartolome de las Casas</author>
+        <respStmt>
+          <name ref="#per-acj1ac">Samuel Fynewver</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Proposition 30</title>
+          <date when="2025-04-16">April 16, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+              >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="en">Born Digital</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="la30px-bbb630">
+        <head xml:id="la30px-bbb630-Hd1e104">Proposition 30</head>
+        <p xml:id="la30px-bbb630-d1e106"> Proposition 30 </p>
+        <p xml:id="la30px-bbb630-d1e111">
+          With all the aforementioned, by force of logic, it follows
+          that without perjuring the title and sovereign lordship which the Castilian Monarchs have
+          over that orb of the Indies, everything which has been done in them, both in the unjust
+          and tyrannical conquests and in the repartimientos and encomiendas, has been null, without
+          any value or force of law, since it has all been done by pure tyrants, without just cause
+          nor reason nor authority from their prince and natural king. Indeed, these actions are
+          against express commands of Your Majesty. As this Royal Council can confirm, they have not
+          kept a single command with regard to this matter. And it is so notorious that no person of
+          however many there are in the Indians is ignorant of it. And in this way I understand Rule
+          VII of my Confessional that those who have any part—or hope to have any part—in the thefts
+          and tyrannies, and destructions, and loss of souls of the Indians, whichever of these
+          kingdoms they may be in. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

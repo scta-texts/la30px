@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Proposicion 28</title>
+        <author ref="#per-bdlcbd">Bartolome de las Casas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#per-acj1ac">Samuel Fynewver</name>
+          <resp>Editor</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Proposicion 28</title>
+          <date when="2025-04-16">April 16, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+            >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="cod-tplatp">Seville, 1552</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#S" n="16"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="la30px-bbb322">
+        <head xml:id="la30px-bbb322-Hd1e104">Proposicion 28</head>
+        <p xml:id="la30px-bbb322-d1e106"> Proposicion XXVIII </p>
+        <p xml:id="la30px-bbb322-d1e111"> 
+          Ninguna otra pestilencia pudo el diablo inventar para
+          destruir todo aquel orbe, consumir y matar todas aquellas gentes dél y despoblar como ha
+          despoblado tan grandes y tan poblados reinos, y esta sola bastaba para despoblar el mundo,
+          como fué la invención del repartimiento y encomiendas de aquellas gentes, que repartieron
+          y las encomendaron a los españoles, como si se las encomendaran a todos los diablos, o
+          como hatajos de ganados entregados a hambrientos lobos. Por esta encomienda o
+          repartimiento, que fué la más cruel especie de tiranía y más digna de fuego infernal que
+          pudo ser imaginada, todas aquellas gentes son impedidas de rescebir la fee y religión
+          cristiana, por ocupallos noches y días los españoles, sus infelices tiranos comendadores,
+          en las minas y trabajos personales y tributos increíbles, y con echalles cargas a cuestas
+          que las lleven ciento y docientas leguas, como y peores que si fuesen bestias, y con
+          perseguir y echar de los pueblos de los indios a los religiosos predicadores de la fee,
+          que les doctrinan y dan conoscimiento de Dios, por no tener testigos de sus violencias,
+          crueldades, latrocinios continuos y homicidios. Por estas encomiendas y repartimiento han
+          padecido y padecen continuos tormentos, robos, injusticias en sus personas y en fijos e
+          mujeres y bienes los indios. Por estas encomiendas y repartimientos han perecido en obra
+          de cuarenta y seis años, yo presente, sobre quince cuentos de ánimas, sin fe y sin
+          sacramentos, y han despoblado más de tres mill leguas de tierra; e yo, digo, presente. Y
+          mientras estas encomiendas duraren, yo pido a Dios que sea testigo y juez desto que digo,
+          que no bastará el poder de los reyes, aunque estuviesen presentes, a que no perezcan, y se
+          acaben, y consuman todos los indios como por esta vía se acabarían mil mundos sin tener
+          remedio. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Argumento</title>
+        <author ref="#per-bdlcbd">Bartolome de las Casas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#per-acj1ac">Samuel Fynewver</name>
+          <resp>Editor</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Argumento</title>
+          <date when="2025-04-16">April 16, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+            >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="cod-tplatp">Seville, 1552</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#S" n="2"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="la30px-aaa132">
+        <head xml:id="la30px-aaa132-Hd1e103">Argumento</head>
+        <p xml:id="la30px-aaa132-d1e105">
+          Argumento de la causa de las 
+          siguientes proposiciones.
+        </p>
+        <p xml:id="la30px-aaa132-d1e114">
+          El obispo don fray Bartolomé de las Casas o Casaus, siendo obispo de la Ciudad Real de Chiapa, que es un reino de la Nueva España, como conosciese por experiencia de cincuenta años las necesidades espirituales que los españoles han incurrido en las Indias, de las cuales no estaban libres los que vivían en aquel obispado, antes eran de los más necesitados de tener lumbre de sus errores y pecados, y que le incumbía por su oficio pastoral darles remedio para su ceguedad y peligro (lo cual no suele darse por otra vía después de la predicación y doctrina, sino por las confesiones), por esta causa ordenó una breve información, como confesionario, asignando ciertas reglas por las cuales en el foro de la conciencia se guiasen o rigiesen los confesores. Traído este Confesionario a estos reinos de Castilla y visto y revisto y examinado, fué aprobado y firmado por seis maestros de señalados en Teología.
+        </p>
+        <p xml:id="la30px-aaa132-d1e158">
+          Pero algunos émulos de la verdad, ignorantes del hecho y del derecho de las cosas pasadas en las Indias, que pretendían poner excusas y colores a obras nefandísimas, queriéndolo calumniar, tomaron por ocasión para fundarse una de las reglas dichas, imponiéndole que que contenía negar el título o señorío de aquel orbe que en el tienen los reyes de Castilla, porque afirma que todo lo que en las Indias se ha hecho por los españoles nulo y de ningÚn valor de derecho haya sido como cosa hecha sin autoridad de príncipe y contra toda natural justicia. Desta ocasión las siguientes proposiciones su origen y principio.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

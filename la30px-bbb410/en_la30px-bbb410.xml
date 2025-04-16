@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Proposition 29</title>
+        <author ref="#per-bdlcbd">Bartolome de las Casas</author>
+        <respStmt>
+          <name ref="#per-acj1ac">Samuel Fynewver</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Proposition 29</title>
+          <date when="2025-04-16">April 16, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+            >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="en">Born Digital</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <front>
+      <div xml:id="starts-on">
+      </div>
+    </front>
+    <body>
+      <div xml:id="la30px-bbb410">
+        <head xml:id="la30px-bbb410-Hd1e103">Proposition 29</head>
+        <p xml:id="la30px-bbb410-d1e105">
+          Proposition 29
+        </p>
+        <p xml:id="la30px-bbb410-d1e110">
+          The said encomiendas and repartimiento of men which are made and has been made, as I said, as though they were beasts,36 was never ordered from its tyrannical beginning by the Castilian monarchs. They never had any such thought, because they would not abide such an iniquitous, tyrannical, and depopulating government over such great kingdoms. They would never put an entire world in this most harsh and continuous, horrible and lethal servitude, with the integrity and justice of none who are catholic Christians. They would never do this even to infidel peoples, since they are reasonable.
+          Queen Lady Isabel
+        </p>
+        <p xml:id="la30px-bbb410-d1e136">
+          Queen Lady Isabel most explicitly ordered that the Indians be conserved in their peace, justice, and liberty. Queen Isabel is of immortal memory,37 and she dealt with this from the beginning. By her command and favor the Indians were discovered. She sent the first governor and Admiral, Columbus, and the second Francisco de Bobadilla, and the third, a comendador from Lares. She ordered that they be conserved in their liberty, since the Admiral only gave some three hundred Indians to Spaniards, who had served the Monarchs well. 
+        </p>
+        <p xml:id="la30px-bbb410-d1e160">
+          Of these, I, writing this, personally had one,38 who wanted to drown and destroy the
+          Admiral, asking with what power he had of his own to give his vassals away to anyone. These vassals—in the Court of Granada, when Lanjarón or Alpujarras was there—were ordered to be returned to their lands, free, and with reparations paid to them. What would the most serene and Christian queen say, sirs, if she knew that the universes of neighbors and inhabitants of that, her other world, were divided among the cruel tyrants as if they were sheep for the slaughter? What would she say if she knew that, by this repartimiento, there have perished (as I said) fifteen million souls, as Your Majesties, sirs, have seen? I am about to say that she39 would set Castille on fire.
+        </p>
+        <p xml:id="la30px-bbb410-d1e190">
+          Later she confirmed and reaffirmed the second governor, Bobadilla, and then the third, the comendero from Lares. He, in the year five 1503, when I was present, introduced—against goodwill and science and the commandments of the said lady Queen—this infernal pestilence. Therefore, since he later died, the said comendero from Lares was not given his deserved penitence by the Monarchs. And, finally, all that he had commanded and provided, he commanded and reconfirmed in his last will. 
+        </p>
+        <p xml:id="la30px-bbb410-d1e212">
+          Once the Catholic King of Naples came in the year 1507, he wanted to undo this evil. Such intent appears in the instruction he sent to give to Pedrarias, who was the first conquistador of the great American mainland. But since he had few to give fuel to this fire and speak the truth, what he did achieved little for Your Majesty. 
+        </p>
+        <p xml:id="la30px-bbb410-d1e225">
+          More recently, Your Majesty, there was a meeting in this village of Valladolid in the year 1523, in June. Those present had information about how this said repartimiento was unjust and tyrannical, and was the cause of the perishing of all those infinite nations. This had been preceded, by your command, by meetings of learned
+          Councilors and theologians, and people of many letters and good and holy life. As Your Majesty yourself refers, to these wise men it seemed that, with good conscience, since God Our Lord created the said Indians as free and not subjects, Your Majesty could not send them to encomiendas nor to make tributary provinces40 of them for the Christians.
+        </p>
+        <p xml:id="la30px-bbb410-d1e258">
+          These are formal words of Your Majesty, in an instruction which you sent to Hernando Cortés, who had only recently entered in New Spain by the same tyrannical conquests. In this instruction you commanded him not to make any encomienda or repartimiento, or any warehouse of Indians managed by Spanish. Rather, you commanded him to let them live freely, just as your vassals who live in these kingdoms of Castille live. You also commanded that, should this instruction arrive after the establishment of any repartimiento or encomienda, then it should be revoked and everyone should be given their freedom, etc. (These are all words of Your majesty, as appear in the said royal instruction.) Cortés did not comply with any of this, despite much that the instruction had to do with him.
+        </p>
+        <p xml:id="la30px-bbb410-d1e287">
+          This was also the final conclusion of the entire Royal Council and meetings which were made by the command of Your Majesty, when you were going to Italy, in the year 1529, in the time when Juan Tavera was president. Of all this nothing was achieved. And since Your Majesty has had so frequent absences, and due to your many external endeavors, you have not had news of the miseries and calamities of the Indians and the evil and vast poison of kingdoms which have this repartimiento in them, and everything which you have there is being lost. This tyrannical blindness has grown in years and has thickened. And God only knows if it will be enough, as it is obligated, to eradicate it someday.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

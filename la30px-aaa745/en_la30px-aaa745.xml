@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Proposition 15</title>
+        <author ref="#per-bdlcbd">Bartolome de las Casas</author>
+        <respStmt>
+          <name ref="#per-acj1ac">Samuel Fynewver</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Proposition 15</title>
+          <date when="2025-04-16">April 16, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+              >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="en">Born Digital</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="la30px-aaa745">
+        <head xml:id="la30px-aaa745-Hd1e104">Proposition 15</head>
+        <p xml:id="la30px-aaa745-d1e106"> Proposition 15 </p>
+        <p xml:id="la30px-aaa745-d1e111"> 
+          Fernando and Isabel, monarchs of Castilla and León, have
+          singular prerogatives—more than other Christian kings—in that they were vested with the
+          office of preaching the Gospel to the New World, by the Vicar of Christ. It was by nothing
+          less than divine authority that they were instituted and invested with the highest dignity
+          that kings have ever had over the earth. That is, they are the architectonic apostles of
+          the Indies. 
+          
+          Among other excellencies, they had these two. The first, which they inherited
+          from their ancestors’ dedication to the Reconquista, was their reconquest of all these
+          kings of Spain from the tyrannical Mahometan enemies of the faith. They achieved this with
+          much spilling of their own royal blood and with their own royal persons. By incomparable
+          works, they finally restored the great kingdom of Granada to Christ and to the universal
+          Church. 
+          
+          The second was that, at their own expense and by their favor and command, they
+          sent Columbus, who they honored with the title of First Admiral, and so the most extensive
+          Indies were discovered. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

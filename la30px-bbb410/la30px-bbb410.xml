@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Proposicion 29</title>
+        <author ref="#per-bdlcbd">Bartolome de las Casas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#per-acj1ac">Samuel Fynewver</name>
+          <resp>Editor</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Proposicion 29</title>
+          <date when="2025-04-16">April 16, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+            >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="cod-tplatp">Seville, 1552</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#S" n="17"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="la30px-bbb410">
+        <head xml:id="la30px-bbb410-Hd1e103">Proposicion 29</head>
+        <p xml:id="la30px-bbb410-d1e105"> Proposicion XXIX </p>
+        <p xml:id="la30px-bbb410-d1e110"> Las dichas encomiendas y repartimiento de hombres que se
+          hace y ha hecho, según dije, como si fueran bestias, nunca fué mandado hacer desde su
+          tiránico principio por los reyes de Castilla, ni tal pensamiento tuvieron, porque no se
+          compadece tal gobernación inicua, tiránica, vastativa y despoblativa de tan grandes
+          reinos, poniendo a todo un mundo en aspérrima y continua, horrible y mortífera
+          servidumbre, con la rectitud y justicia de ningunos que sean católicos cristianos, ni
+          aunque fuesen gentiles infieles, con que tuviesen alguna razón de reyes. </p>
+        <p xml:id="la30px-bbb410-d1e136"> La reina doña Isabel, de inmortal memoria, que desto trató
+          la primera, luego ansí como por su mandado y favor se descubrieron las Indias, al primero
+          que envió por gobernador, que fué el dicho Almirante, y el segundo, que se llamó don
+          Francisco de Bobadilla, y el tercero que fué un comendador de Lares, mandó
+          explicacísimamente que conservasen los indios en toda su paz justicia y libertad. Lo cual,
+          porque el dicho Almirante dió solos trescientos indios a españoles, los cuales habían bien
+          servido a los Reyes, </p>
+        <p xml:id="la30px-bbb410-d1e160"> y dellos yo que esto digo tuve uno, quiso hundir y
+          destruir al Almirante diciendo que qué poder tenía él suyo para dar a nadie sus vasallos,
+          los cuales lego, estando la Corte en Granada, cuando lo de Lanjarón o Alpujarras, todos
+          mandó que fuesen a sus tierras, libres, restituídos. ¿Qué dijera la serenísima y
+          cristianísima reina, señores, si supiera haber repartido a los tiranos crueles, como si
+          fueran carneros, todos, sin sacar grandes ni chicos, los universos vecinos y moradores de
+          aquel su otro mundo, y por el tal repartimiento haber perescido (como dije) quince cuentos
+          de ánimas, como Vuestra Alteza, señores, lo habéis visto? Estoy por decir que pusiera
+          fuego a Castilla. </p>
+        <p xml:id="la30px-bbb410-d1e190"> Después confirmó y refirmó lo mismo al dicho segundo
+          gobernador, Bobadilla, y después al tercero, comendador de Lares, el cual, el año de
+          quinientos y tres, siendo yo presente, introdujo, contra voluntad y sciencia y contra los
+          mandamientos de la dicha señora reina, esta infernal pestilencia; por la cual, porque
+          luego murió, no se le dió al dicho comendador de Lares por los Reyes su merecida
+          penitencia. Y, últimamente, todo lo que había mandado y proveído, lo mandó y reconfirmó en
+          su último testamento. </p>
+        <p xml:id="la30px-bbb410-d1e212"> Venido el Rey Católico de Nápoles el año de siete, quiso
+          emendar tanto mal, como paresce algo en la instrucción que mandó dar a Pedrarias, que fué
+          el primero conquistador de la gran tierra firme; pero como tuvo pocos que le diesen lumbre
+          y dijesen verdad, a Su Alteza aprovechó poco lo que fizo. </p>
+        <p xml:id="la30px-bbb410-d1e225"> Ultimamente, Su Majestad, estando en esta villa de
+          Valladolid en el año de quinientos y veinte y tres, por el mes de junio, teniendo
+          información cómo el dicho repartimiento era injusto y tiránico, y ser causa de perescer
+          todas aquellas infinitas naciones, habiendo precedido por su mandado ayuntamientos de
+          letrados de sus Consejos y de teólogos, y de personas de muchas letras y de buena y santa
+          vida, como Su Majestad mismo refiere, a los cuales pareció que con buena conciencia, pues
+          Dios Nuestro Señor crió los dichos indios libres y no subjectos, Su Majestad no podía
+          mandarlos encomendar ni facer repartimiento dellos a los cristianos </p>
+        <p xml:id="la30px-bbb410-d1e258"> (estas son palabras formales de Su Majestad) en una
+          instrucción que envió a Hernando Cortés, que poco había que era entrado en la Nueva España
+          por las mismas tiránicas conquistas, en la cual le mandó que no ficiese emcomienda, ni
+          repartimiento, ni depósito alguno de indios en españoles, sino que los dejasen vivir
+          libremente, como sus vasallos en estos reinos de Castilla viven, y si cuando aquella
+          instrucción llegase hobiese hecho algún repartimiento o encomienda, luego la revocase y
+          los pusiese en su libertad, etcétera. (Todas estas son palabras de Su Majestad, como en la
+          dicha instrucción real paresce.) El cual no cumplió nada, por lo mucho que a él le iba en
+          ello. </p>
+        <p xml:id="la30px-bbb410-d1e287"> Esta fué también final conclusión de todo el Consejo Real
+          y ayuntamientos que se hicieron por mandado de Su Majestad cuando pasaba a Italia destos
+          reinos, el año de veinte y nueve, en tiempo que don Juan Tavera era presidente; y de todo
+          nunca se cumplió nada. Y así como Su Majestad ha hecho tan frecuentes ausencias, y por sus
+          muchos negocios externos no ha acabado de tener noticia de las miserias y calamidades de
+          los indios y la maldad y ponzoña vastativa de reinos que contiene en sí este
+          repartimiento, y cómo todo cuanto allá tiene se le pierde, y se ha envejecido y tupido
+          esta tiránica ceguedad hasta agora. Y Dios sabe si será bastante, como es obligado, a
+          extirparla algún día. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

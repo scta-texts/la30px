@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Proposicion 9</title>
+        <author ref="#per-bdlcbd">Bartolome de las Casas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#per-acj1ac">Samuel Fynewver</name>
+          <resp>Editor</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Proposicion 9</title>
+          <date when="2025-04-16">April 16, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+              >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="cod-tplatp">Seville, 1552</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-04-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#S" n="7"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="la30px-aaa516">
+        <head xml:id="la30px-aaa516-Hd1e104">Proposicion 9</head>
+        <p xml:id="la30px-aaa516-d1e106"> Proposicion IX </p>
+        <p xml:id="la30px-aaa516-d1e111"> 
+          Justa y digna cosa es que aunque el premio principal de
+          los reyes cristianos, por los servicios que hacen a Dios y bien a su madre la universal
+          Iglesia con sus reales personas, no consista, ni ellos lo deban de cudiciar en estas cosas
+          mundanas y terrenas, por que todas ellas son de poca entidad y transitorias, sino el
+          verdadero y ultimado reinar con Cristo, cuyo lugar y tenencia cuanto toca a lo temporal
+          tienen en la tierra; pero que el Summo Pontífice les conceda y haga donación remuneratoria
+          en los mismos reinos que para el dicho repetido fin les encomienda, justa cosa es; empero,
+          sin daño y perjuicio notable del derecho ajeno de los reyes y príncipes e singulares
+          personas de los infieles. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
